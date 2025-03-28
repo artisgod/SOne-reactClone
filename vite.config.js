@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/SOne-reactClone/",
+  base: "./",
   build: {
     outDir: "build", // Change from "dist" to "build"
   }
