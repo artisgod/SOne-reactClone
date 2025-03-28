@@ -2,7 +2,7 @@
   "name": "s-one-clone",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://artisgod.github.io/react-gh-pages",
+  "homepage": "https://artisgod.github.io/SOne-reactClone",
   "type": "module",
   "scripts": {
     "dev": "vite",
