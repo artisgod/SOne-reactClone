@@ -24,7 +24,7 @@ export default function SafetyTips() {
       </div>
       <div className="flex w-full items-center gap-1 my-2 justify-between">
         <p className="whitespace-nowrap">{t("sign")}</p>
-        <div className="flex w-full gap-1 sm:max-w-40">
+        <div className="flex w-full sm:max-w-40">
           <input
             type="text"
             className="border w-full focus:outline-none border-orange-500 p-1"
