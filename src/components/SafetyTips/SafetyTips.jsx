@@ -22,7 +22,7 @@ export default function SafetyTips() {
           <div className="w-full pr-2 flex justify-end"><img src={pic99} className="w-3 h-auto" /></div>
         </div>
       </div>
-      <div className="flex w-full items-center gap-1 my-2 justify-between">
+      <div className="flex w-full items-center gap-1 my-2 justify-end">
         <p className="whitespace-nowrap">{t("sign")}</p>
         <div className="flex w-full sm:max-w-40">
           <input
