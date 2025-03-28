@@ -29,12 +29,12 @@ export default function Banner() {
   };
 
   return (
-    <div className="flex h-72 bg-black md:w-3/5 w-auto lg:w-auto">
-      <div className="flex relative h-full">
+    <div className="flex h-72 bg-black w-full">
+      <div className="flex relative w-full h-full">
         <img
           src={imageCarousel[display].image}
           alt={`Slide ${display + 1}`}
-          className="lg:w-auto h-full object-cover"
+          className="w-auto lg:object-scale-down lg:w-full h-full object-contain"
         />
         <div className="absolute h-full flex-col top-0 right-0 flex justify-center mr-2">
           <button onClick={onPrev} className="px-4 py-2 hover:bg-black/50 flex rounded justify-center cursor-pointer">

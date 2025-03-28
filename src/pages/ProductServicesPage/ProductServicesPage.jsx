@@ -9,14 +9,14 @@ import SafetyTips from "../../components/SafetyTips/SafetyTips"
 export default function ProductServicesPage() {
     return (
         <>
-            <div className="flex md:items-between justify-center h-full w-full items-center md:flex-row flex-col md:gap-2 gap-4 mb-4 lg:mb-0">
+            <div className="flex md:justify-between h-full w-full items-center md:flex-row flex-col md:gap-2 gap-4 mb-4 lg:mb-0">
                 <SearchBox />
                 <Banner />
             </div>
             <Catagories />
-            <div className="lg:flex hidden gap-2 justify-center flex-col lg:flex-row">
+            <div className="lg:grid w-full h-auto hidden gap-2 justify-center grid-cols-4">
                 <ServiceLocator />
-                <NewsEvents />
+                <div className="col-span-2"><NewsEvents /></div>
                 <SafetyTips />
             </div>
             <div className="lg:hidden w-full flex gap-2 justify-center my-4 lg:my-0 flex-col lg:flex-row mb-4">

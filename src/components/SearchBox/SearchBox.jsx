@@ -13,12 +13,10 @@ export default function SearchBox() {
   ]
 
   return (
-    <div className="text-white h-72 bg-black/85 border border-orange-500 w-full md:w-fit">
+    <div className="text-white overflow-hidden lg:h-1/2 h-72 bg-black/85 border border-orange-500 w-full lg:w-1/2">
       <div className="bg-orange-500 text-xl">{t("searchTire")}</div>
-      <div
-        // style={{ backgroundImage: `url(${tire})` }} 
-        className='flex w-ful relative'>
-        <img src={tire} className="object-cover" />
+      <div className='flex w-full relative'>
+        <img src={tire} className="w-full lg:w-auto h-auto lg:h-full object-cover" />
         <div className="w-full flex items-end">
           <div className="absolute md:w-[60%] sm:w-[80%] w-[60%] right-0 top-0 mx-2 flex flex-col">
             {searchItems.map(({ title, subTitle, itemPlaceholder }, index) => {

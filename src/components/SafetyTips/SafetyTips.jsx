@@ -12,9 +12,9 @@ export default function SafetyTips() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex sm:w-fit w-full flex-col">
+    <div className="flex w-fit w-full flex-col">
       <div className="flex">
-        <img src={tip} alt="" />
+        <img src={tip} className="w-full h-auto" />
         <div className="flex w-full bg-black/85 mb-2 border-r border-y border-orange-500 flex-col">
           <p className='text-xl text-orange-500 whitespace-nowrap'>Safety Tips</p>
           <div className="w-full"><img src={pic66} className="w-3 h-auto" /></div>

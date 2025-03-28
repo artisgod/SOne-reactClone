@@ -23,7 +23,7 @@ export default function NewsEvents() {
   }
 
   return (
-    <div className="border w-full lg:w-1/2 border-b-4 border-orange-500 text-center">
+    <div className="border w-full h-full border-b-4 border-orange-500 text-center">
       <div className="flex w-full p-2 items-center border-b border-orange-500 justify-between"><h2 className="text-xl">News & Events</h2>
         <div className="flex justify-center space-x-2">
           {Array.from({ length: totalSlides }).map((_, index) => (
@@ -35,7 +35,7 @@ export default function NewsEvents() {
           ))}
         </div>
       </div>
-      <div className="relative overflow-hidden w-full">
+      <div className="relative overflow-hidden h-full w-full">
         <div
           className="flex transition-transform duration-500"
           style={{ transform: `translateX(-${currentSlide * 33.33}%)`, width: `${totalSlides * 100}%` }}
@@ -43,7 +43,7 @@ export default function NewsEvents() {
           {slides.map((group, index) => (
             <div key={index} className="w-full flex m-2 justify-center">
               {group.map((news) => (
-                <div key={index} className="relative group w-full md:w-1/2 lg:w-1/3 border-r border-orange-500 px-2 bg-white cursor-pointer overflow-hidden">
+                <div key={index} className="relative group w-full border-r border-orange-500 px-2 bg-white cursor-pointer overflow-hidden">
                   <div className="absolute top-2 left-2 bg-black text-white text-sm px-2 py-1 rounded">
                     {news.date}
                   </div>

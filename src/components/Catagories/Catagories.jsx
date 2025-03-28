@@ -30,11 +30,11 @@ export default function Catagories() {
   ]
 
   return (
-    <div className={`grid grid-cols-3 lg:grid-cols-6 w-fit mx-auto justify-center gap-2 my-2`}>
+    <div className={`grid grid-cols-3 lg:grid-cols-6 w-full h-auto items-center justify-center gap-2 my-2`}>
       {catagories.map(({ hovered, defaultBtn }, index) => (
         <img
           key={index}
-          className='cursor-pointer'
+          className='h-full w-full cursor-pointer'
           src={hoveredImage === index ? hovered : defaultBtn}
           alt={`image-${index}`}
           onMouseEnter={() => handleMouseEnter(index)}
