@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@font-face {
+    font-family: "Supermarket";
+    src: url("./assets/fonts/supermarket.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Supermarket", sans-serif;
+}
+  

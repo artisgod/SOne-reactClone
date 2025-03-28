@@ -1,0 +1,46 @@
+{
+  "welcome": "Welcome to our website!",
+  "language": "Language",
+  "search": "Search... ",
+  
+  "searchTire":"Search Tires",
+  "tireFace":"Tire Face",
+  "width":"Width (mm.)",
+  "selectTireFace":"Select Tire Face",
+  "series":"Series",
+  "heightRatio":"Sidewall Height Ratio (%)",
+  "selectSeries":"Select Serie",
+  "wheelRims":"Wheel Rims",
+  "diameters":"Diameters (inch)",
+  "selectWheelRims":"Select Wheel Rim",
+
+  "nearService":"Find a service center near you",
+  "province":"Province",
+  "selectProvince":"Select a province",
+  "district":"District",
+  "selectDistrict":"Select a district",
+  "road":"Road",
+  "selectRoad":"Select a road",
+  "note":"Note",
+  "detail":"Please select one of these",
+
+  "news": [
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 27, 2025" },
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 26, 2025" },
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 25, 2025" },
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 24, 2025" },
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 23, 2025" },
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 22, 2025" },
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 21, 2025" },
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 20, 2025" },
+    { "title": "[New news!!] News and activitiesNews and activitiesNews and activitiesNews and activities", "date": "Mar 19, 2025" }
+  ],
+  
+  "quote": "It is best to refuel in the\nmorning while the ground\ntemperature is still cold.",
+  "sign": "Subscribe to news",
+  "email": "Please enter email",
+
+
+  "lang":"en"
+}
+  
